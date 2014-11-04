@@ -11,7 +11,7 @@ import pl.azurro.kafka.groupmonitor.model.TopicInfo;
 public class KafkaGroupMonitor {
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.out.println("Usage: KafkaGroupMonitor <brokers> <port> <consumer Id>");
+            System.out.println("Usage: KafkaGroupMonitor <zk servers> <group Id>");
             System.out.println("<zk servers> - comma separated Zookeper connection string, e.g.: host1:2181,host2:2181,host3:2181/mychroot");
             System.out.println("<group Id> - the name of consumers group, e.g.: mygroup1");
             System.exit(1);
