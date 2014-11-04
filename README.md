@@ -1,6 +1,8 @@
 kafka-group-monitor
 ===================
 
+KafkaGroupMonitor allows you to monitor your Kafka consumers.
+
 **Usage:**
 
 ```
